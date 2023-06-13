@@ -1,4 +1,4 @@
-media screen and (max-width:760px){
+@media screen and (max-width:1160px){
 header{
     flex-direction: column;
 
@@ -16,14 +16,22 @@ form{
     width: 100%;
 }
 
+
 input{
     align-self: center;
 }
 
 img{
     display: none;
+    width: 20px;
 }
-
+li{
+    margin: 15px;
+    
+}
+#inscreva-se-btn{
+    margin-left: 15vw;
+}
 }
 
     
